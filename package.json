@@ -1,0 +1,20 @@
+{
+  "name": "react-justice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel chats.jsx contacts.jsx navbar.jsx main.jsx > main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-watch": "^0.5.8"
+  },
+  "dependencies": {
+    "linkstate": "^1.1.1"
+  }
+}
